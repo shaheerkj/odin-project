@@ -6,18 +6,27 @@
     <title>Buttons</title>
 </head>
 <body>
-    <button id="sub">SUBSCRIBE</button>
-    <button id="join">JOIN</button>
+    <button class="sub">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
     <style>
-        #join{
-            border: blue;
-            border-right: 50px;
-            border-radius: 10px;
-            background-color: rgb(236, 87, 87);
-            width: 60px;
-            height: 40px;
+        .tweet{
+            border: none;
+
         }
-        #sub{
+        .join{
+            border-color: blue;
+            border-width: 2px;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            width: 80px;
+            height: 40px;
+            color: blue;
+            border-style: solid;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .sub{
             border: none;
             background-color: rgb(150, 21, 21);
             border-radius: 4px;
@@ -26,7 +35,7 @@
             color: white;        
             height: 40px;
             cursor: pointer;
-            
+            margin-right: 10px;
         }
     </style>
 </body>
